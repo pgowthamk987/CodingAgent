@@ -7,7 +7,7 @@ from .tools import explain_tool, debug_tool, generate_tool, dsa_tool
 load_dotenv()
 
 root_agent = LlmAgent(
-    name="devmind",
+    name="coding_agent",
     model="groq/llama-3.1-8b-instant",
     description="DevMind - AI Coding Assistant that explains, debugs, and generates code.",
     instruction="""
